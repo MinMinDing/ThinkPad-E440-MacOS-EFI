@@ -1,0 +1,142 @@
+5:180  0:230  Found BIOS RSDP at F0120
+5:180  0:000  Printing ACPI tables from RSDP F0120 ...
+5:180  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:180  0:000    (Xsdt: DCFFE170, Rsdt: DCFFE0D4)
+5:180  0:000    DCFFE170: 'XSDT', 'TP-J9', Rev: 1, Len: 204
+5:180  0:000    DCFFE0D4: 'RSDT', 'TP-J9', Rev: 1, Len: 120
+5:180  0:000    Tables in Xsdt: 21
+5:180  0:000    0. DCFF9000: 'FACP', 'TP-J9', Rev: 5, Len: 268
+5:180  0:000        (Dsdt: DCFE2000, Facs: DCF69000, XDsdt: DCFE2000, XFacs: 0)
+5:180  0:000        DCFE2000: 'DSDT', 'TP-J9', Rev: 1, Len: 73327
+5:180  0:000        DCF69000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. DCFFC000: 'DBGP', 'TP-J9', Rev: 1, Len: 52
+5:180  0:000    2. DCFFB000: 'ECDT', 'TP-J9', Rev: 1, Len: 82
+5:180  0:000    3. DCFF8000: 'HPET', 'TP-J9', Rev: 1, Len: 56
+5:180  0:000    4. DCFF7000: 'APIC', 'TP-J9', Rev: 1, Len: 152
+5:180  0:000    5. DCFF6000: 'MCFG', 'TP-J9', Rev: 1, Len: 60
+5:180  0:000    6. DCFF5000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+5:180  0:000    7. DCFF4000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1103
+5:180  0:000    8. DCFE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2336
+5:180  0:000    9. DCFE0000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1934
+5:180  0:000    10. DCFDF000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:180  0:000    11. DCFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4602
+5:180  0:000    12. DCFDC000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+5:180  0:000    13. DCFDB000: 'PCCT', 'TP-J9', Rev: 5, Len: 110
+5:180  0:000    14. DCFDA000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+5:180  0:000    15. DCFD9000: 'UEFI', 'TP-J9', Rev: 1, Len: 66
+5:180  0:000    16. DCF62000: 'MSDM', 'TP-J9', Rev: 3, Len: 85
+5:180  0:000    17. DCFFD000: 'ASF!', 'TP-J9', Rev: 32, Len: 165
+5:180  0:000    18. DCFD8000: 'BATB', 'TP-J9', Rev: 1, Len: 70
+5:180  0:000    19. DCFD7000: 'FPDT', 'TP-J9', Rev: 1, Len: 100
+5:180  0:000    20. DCFD6000: 'UEFI', 'TP-J9', Rev: 1, Len: 738
+5:180  0:000    Tables in Rsdt: 21
+5:180  0:000    0. DCFFA000: 'FACP', 'TP-J9', Rev: 1, Len: 116
+5:180  0:000        (Dsdt: DCFE2000, Facs: DCF69000)
+5:180  0:000        DCFE2000: 'DSDT', 'TP-J9', Rev: 1, Len: 73327
+5:180  0:000        DCF69000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. DCFFC000: 'DBGP', 'TP-J9', Rev: 1, Len: 52
+5:180  0:000    2. DCFFB000: 'ECDT', 'TP-J9', Rev: 1, Len: 82
+5:180  0:000    3. DCFF8000: 'HPET', 'TP-J9', Rev: 1, Len: 56
+5:180  0:000    4. DCFF7000: 'APIC', 'TP-J9', Rev: 1, Len: 152
+5:180  0:000    5. DCFF6000: 'MCFG', 'TP-J9', Rev: 1, Len: 60
+5:180  0:000    6. DCFF5000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+5:180  0:000    7. DCFF4000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1103
+5:180  0:000    8. DCFE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2336
+5:180  0:000    9. DCFE0000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1934
+5:180  0:000    10. DCFDF000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:180  0:000    11. DCFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4602
+5:180  0:000    12. DCFDC000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+5:180  0:000    13. DCFDB000: 'PCCT', 'TP-J9', Rev: 5, Len: 110
+5:180  0:000    14. DCFDA000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+5:180  0:000    15. DCFD9000: 'UEFI', 'TP-J9', Rev: 1, Len: 66
+5:180  0:000    16. DCF62000: 'MSDM', 'TP-J9', Rev: 3, Len: 85
+5:180  0:000    17. DCFFD000: 'ASF!', 'TP-J9', Rev: 32, Len: 165
+5:180  0:000    18. DCFD8000: 'BATB', 'TP-J9', Rev: 1, Len: 70
+5:180  0:000    19. DCFD7000: 'FPDT', 'TP-J9', Rev: 1, Len: 100
+5:180  0:000    20. DCFD6000: 'UEFI', 'TP-J9', Rev: 1, Len: 738
+5:180  0:000  Found UEFI Acpi 2.0 RSDP at DCFFE014
+5:180  0:000  Saving ACPI tables from RSDP DCFFE014 to EFI\CLOVER\ACPI\origin ...
+5:180  0:000   DCFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:180  0:000    (Xsdt: DCFFE170, Rsdt: DCFFE0D4)
+5:180  0:000    DCFFE170: 'XSDT', 'TP-J9', Rev: 1, Len: 204
+5:180  0:000    DCFFE0D4: 'RSDT', 'TP-J9', Rev: 1, Len: 120
+5:180  0:000    Tables in Xsdt: 21
+5:180  0:000    0. DCFF9000: 'FACP', 'TP-J9', Rev: 5, Len: 268
+5:180  0:000        (Dsdt: DCFE2000, Facs: DCF69000, XDsdt: DCFE2000, XFacs: 0)
+5:180  0:000        DCFE2000: 'DSDT', 'TP-J9', Rev: 1, Len: 73327
+5:180  0:000        DCF69000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. DCFFC000: 'DBGP', 'TP-J9', Rev: 1, Len: 52
+5:180  0:000    2. DCFFB000: 'ECDT', 'TP-J9', Rev: 1, Len: 82
+5:180  0:000    3. DCFF8000: 'HPET', 'TP-J9', Rev: 1, Len: 56
+5:180  0:000    4. DCFF7000: 'APIC', 'TP-J9', Rev: 1, Len: 152
+5:180  0:000    5. DCFF6000: 'MCFG', 'TP-J9', Rev: 1, Len: 60
+5:180  0:000    6. DCFF5000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+5:180  0:000    7. DCFF4000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1103
+5:180  0:000    8. DCFE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2336
+5:180  0:000    9. DCFE0000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1934
+5:180  0:000    10. DCFDF000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:180  0:000    11. DCFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4602
+5:180  0:000    12. DCFDC000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+5:180  0:000    13. DCFDB000: 'PCCT', 'TP-J9', Rev: 5, Len: 110
+5:180  0:000    14. DCFDA000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+5:180  0:000    15. DCFD9000: 'UEFI', 'TP-J9', Rev: 1, Len: 66
+5:180  0:000    16. DCF62000: 'MSDM', 'TP-J9', Rev: 3, Len: 85
+5:180  0:000    17. DCFFD000: 'ASF!', 'TP-J9', Rev: 32, Len: 165
+5:180  0:000    18. DCFD8000: 'BATB', 'TP-J9', Rev: 1, Len: 70
+5:180  0:000    19. DCFD7000: 'FPDT', 'TP-J9', Rev: 1, Len: 100
+5:180  0:000    20. DCFD6000: 'UEFI', 'TP-J9', Rev: 1, Len: 738
+5:180  0:000    Tables in Rsdt: 21
+5:180  0:000    0. DCFFA000: 'FACP', 'TP-J9', Rev: 1, Len: 116
+5:180  0:000        (Dsdt: DCFE2000, Facs: DCF69000)
+5:180  0:000        DCFE2000: 'DSDT', 'TP-J9', Rev: 1, Len: 73327
+5:180  0:000        DCF69000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. DCFFC000: 'DBGP', 'TP-J9', Rev: 1, Len: 52
+5:180  0:000    2. DCFFB000: 'ECDT', 'TP-J9', Rev: 1, Len: 82
+5:180  0:000    3. DCFF8000: 'HPET', 'TP-J9', Rev: 1, Len: 56
+5:180  0:000    4. DCFF7000: 'APIC', 'TP-J9', Rev: 1, Len: 152
+5:180  0:000    5. DCFF6000: 'MCFG', 'TP-J9', Rev: 1, Len: 60
+5:180  0:000    6. DCFF5000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+5:180  0:000    7. DCFF4000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1103
+5:180  0:000    8. DCFE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2336
+5:180  0:000    9. DCFE0000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1934
+5:180  0:000    10. DCFDF000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:180  0:000    11. DCFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4602
+5:180  0:000    12. DCFDC000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+5:180  0:000    13. DCFDB000: 'PCCT', 'TP-J9', Rev: 5, Len: 110
+5:180  0:000    14. DCFDA000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+5:180  0:000    15. DCFD9000: 'UEFI', 'TP-J9', Rev: 1, Len: 66
+5:180  0:000    16. DCF62000: 'MSDM', 'TP-J9', Rev: 3, Len: 85
+5:180  0:000    17. DCFFD000: 'ASF!', 'TP-J9', Rev: 32, Len: 165
+5:180  0:000    18. DCFD8000: 'BATB', 'TP-J9', Rev: 1, Len: 70
+5:180  0:000    19. DCFD7000: 'FPDT', 'TP-J9', Rev: 1, Len: 100
+5:180  0:000    20. DCFD6000: 'UEFI', 'TP-J9', Rev: 1, Len: 738
+5:180  0:000  Found UEFI Acpi 1.0 RSDP at DCFFE000
+5:180  0:000  Printing ACPI tables from RSDP DCFFE000 ...
+5:180  0:000   DCFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+5:180  0:000    (Rsdt: DCFFE038)
+5:180  0:000    DCFFE038: 'RSDT', 'TP-J9', Rev: 1, Len: 120
+5:180  0:000    Tables in Rsdt: 21
+5:180  0:000    0. DCFFA000: 'FACP', 'TP-J9', Rev: 1, Len: 116
+5:180  0:000        (Dsdt: DCFE2000, Facs: DCF69000)
+5:180  0:000        DCFE2000: 'DSDT', 'TP-J9', Rev: 1, Len: 73327
+5:180  0:000        DCF69000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. DCFFC000: 'DBGP', 'TP-J9', Rev: 1, Len: 52
+5:180  0:000    2. DCFFB000: 'ECDT', 'TP-J9', Rev: 1, Len: 82
+5:180  0:000    3. DCFF8000: 'HPET', 'TP-J9', Rev: 1, Len: 56
+5:181  0:000    4. DCFF7000: 'APIC', 'TP-J9', Rev: 1, Len: 152
+5:181  0:000    5. DCFF6000: 'MCFG', 'TP-J9', Rev: 1, Len: 60
+5:181  0:000    6. DCFF5000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+5:181  0:000    7. DCFF4000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1103
+5:181  0:000    8. DCFE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2336
+5:181  0:000    9. DCFE0000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1934
+5:181  0:000    10. DCFDF000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:181  0:000    11. DCFDD000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4602
+5:181  0:000    12. DCFDC000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+5:181  0:000    13. DCFDB000: 'PCCT', 'TP-J9', Rev: 5, Len: 110
+5:181  0:000    14. DCFDA000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+5:181  0:000    15. DCFD9000: 'UEFI', 'TP-J9', Rev: 1, Len: 66
+5:181  0:000    16. DCF62000: 'MSDM', 'TP-J9', Rev: 3, Len: 85
+5:181  0:000    17. DCFFD000: 'ASF!', 'TP-J9', Rev: 32, Len: 165
+5:181  0:000    18. DCFD8000: 'BATB', 'TP-J9', Rev: 1, Len: 70
+5:181  0:000    19. DCFD7000: 'FPDT', 'TP-J9', Rev: 1, Len: 100
+5:181  0:000    20. DCFD6000: 'UEFI', 'TP-J9', Rev: 1, Len: 738
